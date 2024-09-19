@@ -85,3 +85,14 @@ footer{
     height: 20vh;
     font-weight: 600;
 }
+@media screen and (max-width :700px) {
+    nav{
+        flex-direction: column;
+    }
+    nav>span{
+        padding: 1rem;
+    }
+    main{
+        flex-direction: column;
+    }
+}
